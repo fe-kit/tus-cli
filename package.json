@@ -1,0 +1,22 @@
+{
+  "name": "tus-cli",
+  "version": "1.0.0",
+  "description": "tus client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "tus-cli": "./bin/cli.js"
+  },
+  "author": "www.wolong.cn",
+  "email": "tjubao@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.20.0",
+    "inquirer": "^6.4.1",
+    "readline": "^1.3.0",
+    "string.prototype.padstart": "^3.0.0"
+  }
+}
