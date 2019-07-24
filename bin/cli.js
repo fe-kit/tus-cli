@@ -1,9 +1,8 @@
 #!/usr/bin/env node
 const path = require('path');
-const fs = require('fs');
-
 const program = require('commander');
 const utils = require('../utils');
+
 process.env.NODE_PATH = __dirname + '/../node_modules/';
 program.version(require('../package').version);
 program.usage('<command>');
