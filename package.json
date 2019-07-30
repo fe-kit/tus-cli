@@ -14,7 +14,6 @@
   "license": "ISC",
   "dependencies": {
     "chalk": "^2.4.2",
-    "cmdify": "^0.0.4",
     "commander": "^2.20.0",
     "didyoumean": "^1.2.1",
     "download-git-repo": "^2.0.0",
