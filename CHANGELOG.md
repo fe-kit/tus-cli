@@ -15,3 +15,11 @@
 ## 添加 options 参数 -t -f 设置
 
 ## 替换 fs 为 fs-extra
+
+# 1.0.4
+
+## 添加动画提示 ora
+
+## 拆分 Creator
+
+##spawn 改为 execa
