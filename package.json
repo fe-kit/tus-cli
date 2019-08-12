@@ -1,6 +1,6 @@
 {
   "name": "tus-cli",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "tus client",
   "main": "index.js",
   "scripts": {
@@ -29,5 +29,9 @@
     "semver": "^6.3.0",
     "string.prototype.padstart": "^3.0.0",
     "validate-npm-package-name": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tjubao/tus-cli.git"
   }
 }
