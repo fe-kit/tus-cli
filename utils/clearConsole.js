@@ -3,7 +3,7 @@ const semver = require('semver');
 const getVersions = require('./getVersions');
 const { clearConsole } = require('./logger');
 
-exports.generateTitle = async function(checkUpdate) {
+exports.generateTitle = async function (checkUpdate) {
   const { current, latest } = await getVersions();
   let title = chalk.bold.blue(`TUS CLI v${current}`);
   if (checkUpdate && semver.gt(latest, current)) {
